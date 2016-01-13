@@ -13,6 +13,8 @@
 		0DDCB8AA1C44E01100C933E2 /* QingMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCB8A81C44E01100C933E2 /* QingMusic.xcdatamodeld */; };
 		0DDCB8AC1C44E01100C933E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCB8AB1C44E01100C933E2 /* Assets.xcassets */; };
 		0DDCB8AF1C44E01100C933E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCB8AD1C44E01100C933E2 /* LaunchScreen.storyboard */; };
+		0DDCB8BC1C44EB0900C933E2 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCB8BB1C44EB0900C933E2 /* UIImageExtension.swift */; };
+		0DDCB8BE1C44ED6900C933E2 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCB8BD1C44ED6900C933E2 /* UIImageViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0DDCB8AB1C44E01100C933E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DDCB8AE1C44E01100C933E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DDCB8B01C44E01100C933E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDCB8BB1C44EB0900C933E2 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		0DDCB8BD1C44ED6900C933E2 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		0DDCB8A01C44E01100C933E2 /* QingMusic */ = {
 			isa = PBXGroup;
 			children = (
+				0DDCB8BA1C44EAAA00C933E2 /* Extension */,
 				0DDCB8A11C44E01100C933E2 /* AppDelegate.swift */,
 				0DDCB8A31C44E01100C933E2 /* ViewController.swift */,
 				0DDCB8A51C44E01100C933E2 /* Main.storyboard */,
@@ -65,6 +70,15 @@
 				0DDCB8A81C44E01100C933E2 /* QingMusic.xcdatamodeld */,
 			);
 			path = QingMusic;
+			sourceTree = "<group>";
+		};
+		0DDCB8BA1C44EAAA00C933E2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DDCB8BB1C44EB0900C933E2 /* UIImageExtension.swift */,
+				0DDCB8BD1C44ED6900C933E2 /* UIImageViewExtension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 			files = (
 				0DDCB8AA1C44E01100C933E2 /* QingMusic.xcdatamodeld in Sources */,
 				0DDCB8A41C44E01100C933E2 /* ViewController.swift in Sources */,
+				0DDCB8BC1C44EB0900C933E2 /* UIImageExtension.swift in Sources */,
+				0DDCB8BE1C44ED6900C933E2 /* UIImageViewExtension.swift in Sources */,
 				0DDCB8A21C44E01100C933E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
